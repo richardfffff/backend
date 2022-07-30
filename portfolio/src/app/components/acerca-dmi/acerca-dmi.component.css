@@ -1,0 +1,18 @@
+div{
+    margin-right: 0px;
+    text-align: center;
+    color: white;
+    background:linear-gradient(to right ,rgb(0, 0, 10)  ,rgb(32, 83, 158));
+    
+    }
+    span{
+        font-size: xx-large;
+    }
+    #fdperfil{
+       
+        left: -35%;
+        top: 65%;
+       
+        }
+       
+    
