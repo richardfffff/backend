@@ -1,7 +1,10 @@
+h2{
+    padding: 20px;
+}
 div{
-    margin-right: 0%;
+    
     text-align: center;
-color: white;
+    color:white;
     background:linear-gradient(to right ,rgb(0, 0, 10)  ,rgb(32, 83, 158));
     
     }

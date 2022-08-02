@@ -11,7 +11,8 @@ import { BannerComponent } from './components/banner/banner.component';
 import { SocialRedesComponent } from './components/social-redes/social-redes.component';
 import { ArgprogComponent } from './components/argprog/argprog.component';
 import { FotoPerfilComponent } from './components/foto-perfil/foto-perfil.component';
-
+import { NgCircleProgressModule } from 'ng-circle-progress';
+import { HSComponent } from './components/h-s/h-s.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,11 +24,13 @@ import { FotoPerfilComponent } from './components/foto-perfil/foto-perfil.compon
     SocialRedesComponent,
     ArgprogComponent,
     FotoPerfilComponent,
+    HSComponent,
    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgCircleProgressModule.forRoot({})
   ],
   providers: [],
   bootstrap: [AppComponent]

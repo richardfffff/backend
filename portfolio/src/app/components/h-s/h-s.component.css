@@ -1,0 +1,13 @@
+
+.row{
+    
+    padding: 20px;
+    background:linear-gradient(to right ,rgb(0, 0, 10)  ,rgb(32, 83, 158));
+   }
+   h1{
+    color: white;
+    padding: 20px;
+    text-align: center;
+   }
+
+   

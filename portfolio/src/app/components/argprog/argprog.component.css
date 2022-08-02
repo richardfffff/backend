@@ -1,8 +1,18 @@
-img{
-    width: 175px;
-    }
-div{
-
-background:linear-gradient(to right ,rgb(0, 0, 10)  ,rgb(32, 83, 158));
-
+.conteiner{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background:linear-gradient(to right ,rgb(0, 0, 10)  ,rgb(32, 83, 158));
 }
+#logarpr{
+    width: 175px;
+   }
+img{
+    width: 40px;
+    margin-right: 20px;
+   
+    }
+    
+
+    
+
