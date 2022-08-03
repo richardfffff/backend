@@ -1,25 +1,24 @@
 h1 {
-    padding: 20px;
-}
+   padding: 20px;
+   }
 h5{
-    padding: 20px;
-}
+  padding: 20px;
+  }
 div{
-     text-align: center;
+    text-align: center;
     color: white;
     background:linear-gradient(to right ,rgb(0, 0, 10)  ,rgb(32, 83, 158));
-    
-    }
+   }
+
     span{
-    
         font-size: xx-large;
-    }
-    #fdperfil{
-       
-        left: -35%;
-        top: 65%;
-       
         }
+
+    
+        #fdperfil{
+            left: -35%;
+            top: 65%;
+            }
         
-       
+            
     

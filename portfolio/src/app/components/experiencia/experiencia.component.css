@@ -1,9 +1,19 @@
-h2{
-    margin: 20px;
-}
-div{
-    text-align: center;
-    color: white;
-    background:linear-gradient(to right ,rgb(0, 0, 10)  ,rgb(32, 83, 158));
-    
-    }
+h1{
+   padding: 20px;
+   text-align: center;
+  }
+  ul{
+    list-style-type: square;
+  }
+  h3{
+    display: inline;
+  }
+  .row{
+       padding-left:50px;
+       padding-right: 50px;
+      }
+
+  div{
+      color: white;
+      background:linear-gradient(to right ,rgb(0, 0, 10)  ,rgb(32, 83, 158));
+      }
