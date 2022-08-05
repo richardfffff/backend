@@ -6,7 +6,7 @@ h1 {
    padding-top: 5px;
    }
 h5{
-  padding: 20px;
+  padding: 5px;
   }
 div{
     text-align: center;
@@ -19,13 +19,7 @@ div{
         text-align: center;
         }
 
-    
-        #fdperfil{
-            left: -35%;
-            top: 65%;
-            }
             hr{
-        
               margin: 30px 0;
               border: 2px solid #bfe2ff;
               position: relative;

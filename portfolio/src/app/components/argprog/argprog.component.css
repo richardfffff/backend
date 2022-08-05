@@ -5,13 +5,24 @@
     background:linear-gradient(to right ,rgb(0, 0, 10) ,rgb(32, 83, 158));
 }
 #logarpr{
-    width: 175px;
+    width: 350%;
    }
-img{
-    width: 40px;
-    margin-right: 20px;
-   margin-top: 10px;
+ img{
+    margin-right: 0.5%;
+    width:10%
     }
+    .btn{
+      width: 30%;
+       border-right: 0px;
+       border-width: medium;
+       border-radius: 100%;
+       }
+       .redes{
+        margin-left: 40%;
+        margin-right: 5%;
+        
+       }
+    
     
 
     
