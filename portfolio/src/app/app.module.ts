@@ -13,6 +13,8 @@ import { ArgprogComponent } from './components/argprog/argprog.component';
 import { FotoPerfilComponent } from './components/foto-perfil/foto-perfil.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { HSComponent } from './components/h-s/h-s.component';
+import { ProyectosComponent } from './components/proyectos/proyectos.component';
+import { FooterComponent } from './components/footer/footer.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,6 +27,8 @@ import { HSComponent } from './components/h-s/h-s.component';
     ArgprogComponent,
     FotoPerfilComponent,
     HSComponent,
+    ProyectosComponent,
+    FooterComponent,
    
   ],
   imports: [

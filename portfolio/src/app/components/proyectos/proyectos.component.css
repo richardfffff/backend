@@ -1,10 +1,15 @@
+  img{
+    width: 40%;
+   margin-left: 35%;
+   margin-bottom: 10%;
+   }
+  #end{
+    float:right;
+    }
 h1{
     padding: 20px;
     padding-top: 5px;
     text-align: center;
-   }
-   ul{
-     list-style-type: disc;
    }
    h3{
      display: inline;
@@ -12,11 +17,19 @@ h1{
    .row{
         padding-left :50px;
         padding-right: 50px;
-       }
-    div{
-       color: white;
-       background:linear-gradient(to right ,rgb(0, 0, 10)  ,rgb(32, 83, 158));
-       }
+        color: white;
+        background:linear-gradient(to left ,rgb(0, 0, 10)  ,rgb(32, 83, 158));
+        }
+        .container{
+          width: auto;
+        }
+          #star, #end{
+            display: inline-block;
+            text-align: justify;
+            }
+        
+       
+      
 
        hr{
          margin: 30px 0;
@@ -41,4 +54,3 @@ h1{
             left: 100%;
           }
          }
-        

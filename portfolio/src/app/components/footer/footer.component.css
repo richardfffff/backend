@@ -1,0 +1,9 @@
+.row{
+    background:linear-gradient(to right ,rgb(0, 0, 10)  ,rgb(32, 83, 158));
+}
+footer{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    text-align: center;
+}
