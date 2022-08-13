@@ -1,15 +1,3 @@
-img {
-    border-radius: 100%;
-    box-shadow: 4px 4px 4px rgb(6, 21, 58) ;
-    width: 140%;
-    }
-    img:hover{
-        -webkit-transform:
-        scale(1.5);
-        -moz-transform:scale(1.5);
-    -o-transform:scale(1.5);
-    -ms-transform:scale(1.5);
-    transform:scale(1.3) 
-    }
+
     
    
