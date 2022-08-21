@@ -14,7 +14,7 @@ h1{
        padding-right: 50px;
       }
 
-  div{
+  div,td{
       color: white;
       background:linear-gradient(to left ,rgb(0, 0, 10)  ,rgb(32, 83, 158));
       }
