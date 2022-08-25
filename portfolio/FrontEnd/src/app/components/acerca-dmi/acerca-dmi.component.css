@@ -1,8 +1,8 @@
 img {
   border-radius: 100%;
   box-shadow: 4px 4px 4px rgb(6, 21, 58) ;
-  width: 83%;
-  }
+  width: 73%;
+    }
   img:hover{
       -webkit-transform:
       scale(1.5);
@@ -12,14 +12,20 @@ img {
   transform:scale(1.3) 
   }
 .row{
-  padding: 50px;
-}
+  padding: 40px;
+    }
 h1 {
    padding: 20px;
    padding-top: 5px;
    }
-h5{
-  padding: 5px;
+   h2{
+    padding-top: 4em;
+   }
+h4{
+  padding: 15px;
+  }
+  h5{
+    padding-top: 2em;
   }
 div{
     text-align: center;
@@ -27,10 +33,7 @@ div{
     background:linear-gradient(to right ,rgb(0, 0, 10)  ,rgb(32, 83, 158));
    }
 
-    span{
-        font-size: 2em;
-        text-align: center;
-        }
+    
 
             hr{
               margin: 30px 0;
