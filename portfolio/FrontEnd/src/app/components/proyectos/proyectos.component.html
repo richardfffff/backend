@@ -5,16 +5,12 @@
        <button type="button" class="btn btn-primary" routerLink="/nuevoproy" *ngIf="isLogged">
           <h4>Agregar nuevo proyecto</h4>
        </button>
-   
- 
-   
-   <div class="col-12">
        <table class="table">
            <tbody>
                <tr *ngFor="let Proyecto of proyecto">
                    <td class="col-4">
                       <h6>PROYECTO</h6><h3>-{{Proyecto.nombreP}}</h3>
-                   </td>
+                  </td>
                    <td class="col-6"><h6>DESCRIPCION</h6><h5>({{Proyecto.descripcionP}})</h5></td>
                    <td *ngIf="isLogged" class="col-1">
                        <button class="btn btn-info" routerLink="/editproy/{{Proyecto.id}}">
@@ -31,6 +27,6 @@
                </tr>
            </tbody>
        </table>
-   </div>
+   
  
  </div>

@@ -1,6 +1,8 @@
 
 package com.portfolio.mrf.Entity;
 
+
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -12,8 +14,7 @@ import lombok.Setter;
 
 @Getter @Setter
 @Entity
-
-public class Persona {
+public class Persona  {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -30,5 +31,5 @@ public class Persona {
     private String img;
 
    
-    
-}
+
+       }
