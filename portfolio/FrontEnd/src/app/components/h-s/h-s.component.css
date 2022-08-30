@@ -2,27 +2,45 @@ div{
     background:linear-gradient(to right ,rgb(0, 0, 10)  ,rgb(32, 83, 158));
    }
    .row{
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
    }
-   
+
+   #circulo{
+   width: 50%;
+   }
+   .btn-info{
+    border-radius: 100%;
+   }
+   .btn-info, .btn-danger {
+    margin-top:  50%;
+    margin-bottom: 50%;
+   }
+   .btn-primary{
+    width: 100%;
+   }
+
+
    h1{
       color: white;
       padding: 20px;
       padding-top: 5px;
       text-align: center;
      }
-   h5{
+   h5,h4,h6{
      color: white;
      text-align: center;
      font-style: italic;
      }
-     hr{
+     td{
+      color: white;
+     }
+   hr{
       margin: 30px 0;
       border: 2px solid #bfe2ff;
       position: relative;
       overflow: visible;
-       }
+     }
        hr:after{
         content: "";
         border: 2px solid #337ab7;
@@ -39,7 +57,6 @@ div{
           left: 100%;
         }
        }
-     
-     
 
-   
+
+

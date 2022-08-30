@@ -2,178 +2,64 @@
 <div class="row">
   <hr>
     <h1>HARD & SOFT SKILLS</h1>
-    <h5>(Porsentajes SKILLS -relativos a la expectativa del observador)</h5>
-  
+    <h5>(Porcentajes SKILLS -relativos a la expectativa del observador)</h5>
 
-    <div class="col-sm-4 col-md-4 col-lg-4">
-   <circle-progress
-   
-   [percent]="70"
-   [subtitle]="'HTML'"
-   [backgroundPadding]="20"
-   
-   [outerStrokeWidth]="20"
-   [space]="-8"
-   [innerStrokeWidth]="46"
-  
-   [titleFontSize]="'35'"
-   [subtitleFontSize]="'30'"
+   <button type="button" class="btn btn-primary" routerLink="/nuevaha" *ngIf="isLogged">
+      <h4> Agregar nueva habilidad</h4>
+   </button>
 
-   [outerStrokeColor]="'#2027ee'"
-   [innerStrokeColor]="'##050752'"
-   [titleColor] = "'#f1f8f7'"
-   [subtitleColor] ="'#f1f8f7'"
-   [unitsColor]="'#f1f8f7'"
-   
-   [radius]="60"
-   [responsive]="true"
-   
-   [lazy]="true"
-   [animation]="true"
-   [animationDuration]= "1500"
-   ></circle-progress>
-   </div>
+   <table class="table">
+       <tbody>
 
-   
-  <div class="col-sm-4 col-md-4 col-lg-4">
-    <circle-progress
-    [percent]="50"
-    [subtitle]="'CSS'"
-    [backgroundPadding]="20"
- 
-    [outerStrokeWidth]="20"
-    [space]="-8"
-    [innerStrokeWidth]="46"
-   
-    [titleFontSize]="'35'"
-    [subtitleFontSize]="'40'"
- 
-    [outerStrokeColor]="'#623974'"
-    [innerStrokeColor]="'##050752'"
-    [titleColor] = "'#f1f8f7'"
-    [subtitleColor] ="'#f1f8f7'"
-    [unitsColor]="'#f1f8f7'"
-   
-    [radius]="60"
-    [responsive]="true"
+    <tr *ngFor="let Skill of skill">
+             <div id="circulo" class="col-6">
+              <circle-progress
 
-    [lazy]="true"
-    [animation]="true"
-    [animationDuration]= "1500"
-   ></circle-progress>
-   </div>
-   
-   <div class="col-sm-4 col-md-4 col-lg-4">
-    <circle-progress
-    [percent]="20"
-    [subtitle]="'JS'"
-    [backgroundPadding]="20"
- 
-    [outerStrokeWidth]="20"
-    [space]="-8"
-    [innerStrokeWidth]="46"
-   
-    [titleFontSize]="'35'"
-    [subtitleFontSize]="'45'"
- 
-    [outerStrokeColor]="'#be64e8'"
-    [innerStrokeColor]="'##050752'"
-    [titleColor] = "'#f1f8f7'"
-    [subtitleColor] ="'#f1f8f7'"
-    [unitsColor]="'#f1f8f7'"
-   
-    [radius]="60"
-    [responsive]="true"
+                [percent]="Skill.percentK"
+                [subtitle]="Skill.nombreK"
+                [backgroundPadding]="20"
 
-    [lazy]="true"
-    [animation]="true"
-    [animationDuration]= "1500"
-    ></circle-progress>
-    </div>
-  
-   <div class="col-sm-4 col-md-4 col-lg-4">
-    <circle-progress
-    [percent]="65"
-    [subtitle]="'GITHUB'"
-    [backgroundPadding]="20"
- 
-    [outerStrokeWidth]="20"
-    [space]="-8"
-    [innerStrokeWidth]="46"
-   
-    [titleFontSize]="'35'"
-    [subtitleFontSize]="'26'"
- 
-    [outerStrokeColor]="'#690896'"
-    [innerStrokeColor]="'##050752'"
-    [titleColor] = "'#f1f8f7'"
-    [subtitleColor] ="'#f1f8f7'"
-    [unitsColor]="'#f1f8f7'"
-   
-    [radius]="60"
-    [responsive]="true"
+                [outerStrokeWidth]="20"
+                [space]="-8"
+                [innerStrokeWidth]="46"
 
-    [lazy]="true"
-    [animation]="true"
-    [animationDuration]= "1500"
-    ></circle-progress>
-    </div>
-   
-    <div class="col-sm-4 col-md-4 col-lg-4">
-    <circle-progress
-    [percent]="40"
-    [subtitle]="'INGLES'"
-    [backgroundPadding]="20"
- 
-    [outerStrokeWidth]="20"
-    [space]="-8"
-    [innerStrokeWidth]="46"
-   
-    [titleFontSize]="'35'"
-    [subtitleFontSize]="'27'"
- 
-    [outerStrokeColor]="'#060cac'"
-    [innerStrokeColor]="'##1db9ed'"
-    [titleColor] = "'#f1f8f7'"
-    [subtitleColor] ="'#f1f8f7'"
-    [unitsColor]="'#f1f8f7'"
-   
-    [radius]="60"
-    [responsive]="true"
+                [titleFontSize]="'35'"
+                [subtitleFontSize]="'30'"
 
-    [lazy]="true"
-    [animation]="true"
-    [animationDuration]= "1500"
-    ></circle-progress>
-    </div>
-   
-    <div class="col-sm-4 col-md-4 col-lg-4">
-    <circle-progress
-    [percent]="100"
-    [subtitle]="'GRUPAL'"
-    [backgroundPadding]="20"
- 
-    [outerStrokeWidth]="20"
-    [space]="-8"
-    [innerStrokeWidth]="46"
-   
-    [titleFontSize]="'35'"
-    [subtitleFontSize]="'25'"
- 
-    [outerStrokeColor]="'#0892e7'"
-    [innerStrokeColor]="'##1db9ed'"
-    [titleColor] = "'#f1f8f7'"
-    [subtitleColor] ="'#f1f8f7'"
-    [unitsColor]="'#f1f8f7'"
-   
-    [radius]="60"
-    [responsive]="true"
+                [outerStrokeColor]="'#2027ee'"
+                [innerStrokeColor]="'##050752'"
+                [titleColor] = "'#f1f8f7'"
+                [subtitleColor] ="'#f1f8f7'"
+                [unitsColor]="'#f1f8f7'"
 
-    [lazy]="true"
-    [animation]="true"
-    [animationDuration]= "1500"
-  
-    ></circle-progress>
-   </div>
-</div>
+                [radius]="60"
+                [responsive]="true"
+
+                [lazy]="true"
+                [animation]="true"
+                [animationDuration]= "1500"
+
+                ></circle-progress>
+                </div>
+
+                  <td *ngIf="isLogged" class="col-1">
+                   <button class="btn btn-info" routerLink="/editha/{{Skill.id}}">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-magic" viewBox="0 0 16 16">
+                         <path d="M9.5 2.672a.5.5 0 1 0 1 0V.843a.5.5 0 0 0-1 0v1.829Zm4.5.035A.5.5 0 0 0 13.293 2L12 3.293a.5.5 0 1 0 .707.707L14 2.707ZM7.293 4A.5.5 0 1 0 8 3.293L6.707 2A.5.5 0 0 0 6 2.707L7.293 4Zm-.621 2.5a.5.5 0 1 0 0-1H4.843a.5.5 0 1 0 0 1h1.829Zm8.485 0a.5.5 0 1 0 0-1h-1.829a.5.5 0 0 0 0 1h1.829ZM13.293 10A.5.5 0 1 0 14 9.293L12.707 8a.5.5 0 1 0-.707.707L13.293 10ZM9.5 11.157a.5.5 0 0 0 1 0V9.328a.5.5 0 0 0-1 0v1.829Zm1.854-5.097a.5.5 0 0 0 0-.706l-.708-.708a.5.5 0 0 0-.707 0L8.646 5.94a.5.5 0 0 0 0 .707l.708.708a.5.5 0 0 0 .707 0l1.293-1.293Zm-3 3a.5.5 0 0 0 0-.706l-.708-.708a.5.5 0 0 0-.707 0L.646 13.94a.5.5 0 0 0 0 .707l.708.708a.5.5 0 0 0 .707 0L8.354 9.06Z"/>
+                       </svg> EDITAR</button>
+               </td>
+               <td *ngIf="isLogged" class="col-1">
+                   <button class="btn btn-danger" (click)="delete(Skill.id)">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-magic" viewBox="0 0 16 16">
+                         <path d="M9.5 2.672a.5.5 0 1 0 1 0V.843a.5.5 0 0 0-1 0v1.829Zm4.5.035A.5.5 0 0 0 13.293 2L12 3.293a.5.5 0 1 0 .707.707L14 2.707ZM7.293 4A.5.5 0 1 0 8 3.293L6.707 2A.5.5 0 0 0 6 2.707L7.293 4Zm-.621 2.5a.5.5 0 1 0 0-1H4.843a.5.5 0 1 0 0 1h1.829Zm8.485 0a.5.5 0 1 0 0-1h-1.829a.5.5 0 0 0 0 1h1.829ZM13.293 10A.5.5 0 1 0 14 9.293L12.707 8a.5.5 0 1 0-.707.707L13.293 10ZM9.5 11.157a.5.5 0 0 0 1 0V9.328a.5.5 0 0 0-1 0v1.829Zm1.854-5.097a.5.5 0 0 0 0-.706l-.708-.708a.5.5 0 0 0-.707 0L8.646 5.94a.5.5 0 0 0 0 .707l.708.708a.5.5 0 0 0 .707 0l1.293-1.293Zm-3 3a.5.5 0 0 0 0-.706l-.708-.708a.5.5 0 0 0-.707 0L.646 13.94a.5.5 0 0 0 0 .707l.708.708a.5.5 0 0 0 .707 0L8.354 9.06Z"/>
+                       </svg> BORRAR</button>
+               </td>
+           </tr>
+       </tbody>
+   </table>
+
+
+  </div>
+
+
 
