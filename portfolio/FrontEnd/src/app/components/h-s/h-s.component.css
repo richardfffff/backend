@@ -5,9 +5,16 @@ div{
     padding-left: 30px;
     padding-right: 30px;
    }
+   .container{
+    width: 100%;
+   }
+   td{
+    color: white;
+    padding-top: 40px;
+    }
 
    #circulo{
-   width: 50%;
+   width: 100%;
    }
    .btn-info{
     border-radius: 100%;
@@ -17,6 +24,7 @@ div{
     margin-bottom: 50%;
    }
    .btn-primary{
+    margin-top: 20px;
     width: 100%;
    }
 
@@ -32,9 +40,8 @@ div{
      text-align: center;
      font-style: italic;
      }
-     td{
-      color: white;
-     }
+
+
    hr{
       margin: 30px 0;
       border: 2px solid #bfe2ff;
